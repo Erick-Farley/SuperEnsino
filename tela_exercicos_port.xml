@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/exercicios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:textSize="45sp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:text="5°ano-1°bim-"
+        android:layout_alignTop="@+id/listas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/port"
+        android:layout_marginLeft="276dp"
+        android:layout_marginStart="276dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="50dp"
+            android:text="Video Aulas"
+            android:textColor="#696969"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="45sp"
+            android:text="EXERCÍCIOS" />
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="170dp"
+        android:layout_alignParentStart="true">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="700dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="200dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="720dp"
+                    android:layout_height="300dp"
+                    android:background="#6058fc"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="82dp"
+                    android:layout_marginStart="82dp">
+
+                    <TextView
+                        android:id="@+id/tituloAula1"
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:text="Letras e Fonemas"
+                        android:textColor="#FFF"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/vMais1port"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/exercicos2" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="700dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="40dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="720dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="26dp"
+                    android:background="#b555d5"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="89dp"
+                    android:layout_marginStart="89dp"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TextView
+                        android:id="@+id/tituloAula2"
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:text="Dígrafos"
+                        android:textColor="#FFF"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/vMais2port"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/exercicos2" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="700dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="40dp">
+
+
+                <LinearLayout
+                    android:layout_width="720dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="26dp"
+                    android:background="#55a9d5"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="89dp"
+                    android:layout_marginStart="89dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TextView
+                        android:id="@+id/tituloAula3"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:text="Emprego de Letras Maiúsculas"
+                        android:textColor="#FFF"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/vMais3port"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/exercicos2" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

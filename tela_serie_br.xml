@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundobrasil">
+
+    <Button
+        android:id="@+id/btn5br"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/btn5clicar"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btn9br"
+        android:layout_toStartOf="@+id/btn9br" />
+
+    <Button
+        android:id="@+id/btn9br"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/btn9clicar"
+        android:layout_marginRight="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/btn5br" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundomodulo">
+
+    <Button
+
+        android:id="@+id/btn_Ref"
+        android:layout_width="600dp"
+        android:layout_height="250dp"
+        android:background="@drawable/btn_ref_clicar"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btn_Br"
+        android:layout_alignStart="@+id/btn_Br" />
+
+    <Button
+        android:id="@+id/btn_Br"
+        android:layout_width="600dp"
+        android:layout_height="250dp"
+        android:background="@drawable/brn_br_clicar"
+        android:layout_marginTop="185dp"
+        android:layout_alignTop="@+id/btn_Ref"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

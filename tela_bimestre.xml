@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bimestrefundo">
+
+    <Button
+        android:id="@+id/btn1bim"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/btn1bimclicar"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/btn3bim"
+        android:layout_toLeftOf="@+id/btn2bim"
+        android:layout_toStartOf="@+id/btn2bim" />
+
+    <Button
+        android:id="@+id/btn2bim"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/btn2bimclicar"
+        android:layout_marginRight="121dp"
+        android:layout_marginEnd="121dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/btn1bim" />
+
+    <Button
+        android:id="@+id/btn3bim"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/btn3bimclicar"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btn1bim"
+        android:layout_alignStart="@+id/btn1bim" />
+
+    <Button
+        android:id="@+id/btn4bim"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/btn4bimclicar"
+        android:layout_below="@+id/btn1bim"
+        android:layout_toRightOf="@+id/btn1bim"
+        android:layout_toEndOf="@+id/btn1bim" />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/voltar2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/disciplinafundo2">
+
+    <Button
+        android:id="@+id/btnPort"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="327dp"
+        android:background="@drawable/btnport"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnMat"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:background="@drawable/btnmat"
+        android:layout_alignLeft="@+id/btnHist"
+        android:layout_alignStart="@+id/btnHist"
+        android:layout_alignBottom="@+id/btnPort" />
+
+    <Button
+        android:id="@+id/btnCienc"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:background="@drawable/btncienc"
+        android:layout_toRightOf="@+id/btnMat"
+        android:layout_toEndOf="@+id/btnMat"
+        android:layout_alignBottom="@+id/btnMat" />
+
+    <Button
+        android:id="@+id/btnFis"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:background="@drawable/btnfis"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnPort"
+        android:layout_alignStart="@+id/btnPort"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp" />
+
+    <Button
+        android:id="@+id/btnHist"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:background="@drawable/btnhist"
+        android:layout_above="@+id/btnGeo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnBio"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:background="@drawable/btnbio"
+        android:layout_alignBottom="@+id/btnHist"
+        android:layout_alignLeft="@+id/btnCienc"
+        android:layout_alignStart="@+id/btnCienc" />
+
+    <Button
+        android:id="@+id/btnGeo"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:background="@drawable/btngeo"
+        android:layout_marginRight="78dp"
+        android:layout_marginEnd="78dp"
+        android:layout_below="@+id/btnFis"
+        android:layout_toLeftOf="@+id/btnCienc"
+        android:layout_toStartOf="@+id/btnCienc"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/btnQuim"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:background="@drawable/btnquim"
+        android:layout_alignLeft="@+id/btnHist"
+        android:layout_alignStart="@+id/btnHist"
+        android:layout_marginLeft="91dp"
+        android:layout_marginStart="91dp"
+        android:layout_alignBottom="@+id/btnGeo" />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/voltar2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+</RelativeLayout>

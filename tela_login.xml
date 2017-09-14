@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginfundo">
+
+    <EditText
+        android:layout_width="700dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/modelo_edit"
+
+        android:inputType="number"
+        android:hint="matrícula"
+        android:ems="10"
+        android:id="@+id/editMatricula"
+        android:layout_marginBottom="106dp"
+        android:layout_above="@+id/btnLogar"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editSenha"
+        android:layout_width="700dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="870dp"
+        android:background="@drawable/modelo_edit"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="senha"
+        android:textAlignment="center"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+
+        android:background="@drawable/entrarclicar"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/editSenha"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
